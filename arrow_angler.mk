@@ -27,7 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit some common stuff
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, $(TOPDIR)vendor/arrow/config/common_full_phone.mk)
+$(call inherit-product, $(TOPDIR)vendor/arrow/config/common.mk)
 
 PRODUCT_NAME := arrow_angler
 PRODUCT_DEVICE := angler
