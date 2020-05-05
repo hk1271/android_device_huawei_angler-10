@@ -6,5 +6,11 @@
  {
    "repository": "vendor_huawei_angler",
    "target_path": "vendor/huawei"
+ },
+ {
+   "repository":"PixelBoot/packages_apps_GoogleCamera_angler",
+   "target_path":"packages/apps/GoogleCamera",
+   "branch":"ten",
+   "remote":"gitlab"
  }
 ]
