@@ -372,7 +372,7 @@ PRODUCT_COPY_FILES += \
     device/huawei/angler/nfc/libnfc-nxp.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/libnfc-nxp.conf
 
 DEVICE_PACKAGE_OVERLAYS := \
-    device/huawei/angler/overlay
+    device/huawei/angler/overlay \
     device/huawei/angler/overlay-lineage
  
 # Mobile Data provision prop
