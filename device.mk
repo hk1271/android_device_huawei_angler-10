@@ -373,7 +373,8 @@ PRODUCT_COPY_FILES += \
 
 DEVICE_PACKAGE_OVERLAYS := \
     device/huawei/angler/overlay
-
+    device/huawei/angler/overlay-lineage
+ 
 # Mobile Data provision prop
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.prov_mobiledata=false
@@ -612,3 +613,7 @@ $(call add-product-sanitizer-module-config,mm-qcamera-daemon,never)
 # b/36201281
 $(call add-product-sanitizer-module-config,thermal-engine,never)
 $(call add-product-sanitizer-module-config,qmuxd,never)
+
+# Doze
+PRODUCT_PACKAGES += \
+    CustomDoze
