@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_angler.mk
+    $(LOCAL_DIR)/havoc_angler.mk

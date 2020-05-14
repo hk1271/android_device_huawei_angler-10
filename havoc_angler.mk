@@ -27,9 +27,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit some common PixelExperience stuff
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, $(TOPDIR)vendor/xtended/config/common_full_phone.mk)
+$(call inherit-product, $(TOPDIR)vendor/havoc/config/common_full_phone.mk)
 
-PRODUCT_NAME := xtended_angler
+PRODUCT_NAME := havoc_angler
 PRODUCT_DEVICE := angler
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6P
@@ -56,5 +56,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 BUILD_FINGERPRINT := google/angler/angler:8.1.0/OPM3.171019.014/4503998:user/release-keys
 
-# Maintainer
-XTENDED_MAINTAINER := Hardik Kumar
+
+HAVOC_BUILD_TYPE=Official
