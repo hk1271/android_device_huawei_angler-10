@@ -57,3 +57,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 BUILD_FINGERPRINT := google/angler/angler:8.1.0/OPM3.171019.014/4503998:user/release-keys
 
 BLISS_BUILDTYPE=OFFICIAL
+
+# Device Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.bliss.maintainer=Hardik Kumar
