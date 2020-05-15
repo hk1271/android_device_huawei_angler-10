@@ -60,4 +60,4 @@ BLISS_BUILDTYPE=OFFICIAL
 
 # Device Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.bliss.maintainer=Hardik Kumar
+	ro.bliss.maintainer=Hardik_Kumar
