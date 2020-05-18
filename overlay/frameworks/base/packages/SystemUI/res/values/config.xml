@@ -36,5 +36,8 @@
 
     <!-- Doze: can we assume the pickup sensor includes a proximity check? -->
     <bool name="doze_pickup_performs_proximity_check">true</bool>
+     
+    <!-- Whether SystemUI ignores notch -->
+    <bool name="hide_view_behind_notch">true</bool>
 </resources>
 
