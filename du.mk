@@ -34,6 +34,9 @@ PRODUCT_MANUFACTURER := Huawei
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.du.updater=angler
 
+# PixelGApps
+$(call inherit-product-if-exists, vendor/pixelgapps/pixel-gapps.mk)
+
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=angler \
