@@ -250,8 +250,6 @@ PRODUCT_PACKAGES += \
     libqomx_core \
     mm-qcamera-app
 
-# GoogleCamera
-$(call inherit-product, packages/apps/GoogleCamera/gcam.mk)
 
 # GPS
 PRODUCT_PACKAGES += \
