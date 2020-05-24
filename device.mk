@@ -229,7 +229,19 @@ PRODUCT_PACKAGES += \
     libmm-omxcore \
     libOmxVdec \
     libOmxVdecHevc \
-    libOmxVenc
+    libOmxVenc \
+    libOmxAacEnc \
+    libOmxAmrEnc \
+    libOmxEvrcEnc \
+    libOmxG711Enc \
+    libOmxQcelp13Enc \
+    libOmxAacEnc.so \
+    libOmxAmrEnc.so \
+    libOmxCore.so \
+    libOmxEvrcEnc.so \
+    libOmxG711Enc.so \
+    libOmxQcelp13Enc.so \
+    libgui_vendor
 
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
