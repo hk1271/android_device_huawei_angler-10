@@ -130,5 +130,5 @@
             <name>ICameraMotor</name>
             <instance>default</instance>
         </interface>
-    </hal
+    </hal>
 </manifest>
