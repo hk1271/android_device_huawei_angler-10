@@ -260,6 +260,8 @@ PRODUCT_PACKAGES += \
     libmmcamera_interface2 \
     libmmjpeg_interface \
     libqomx_core \
+    vendor.lineage.camera.motor@1.0-impl \
+    vendor.lineage.camera.motor@1.0-service \
     mm-qcamera-app
 
 
