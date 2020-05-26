@@ -50,6 +50,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     device/huawei/angler/init.radio.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.radio.sh
 
+# GoogleCamera
+$(call inherit-product, packages/apps/GoogleCamera/gcam.mk)
+
 # Thermal configuration
 PRODUCT_COPY_FILES += \
     device/huawei/angler/thermal-engine-angler.conf:$(TARGET_COPY_OUT_SYSTEM)/etc/thermal-engine.conf
