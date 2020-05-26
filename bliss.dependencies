@@ -6,7 +6,6 @@
  {
    "repository": "vendor_huawei_angler",
    "target_path": "vendor/huawei"
-
  },
  {
    "repository":"hk1271/packages_apps_GoogleCamera_angler",
