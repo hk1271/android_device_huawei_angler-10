@@ -265,7 +265,10 @@ PRODUCT_PACKAGES += \
     libqomx_core \
     mm-qcamera-app
 
-
+# Charger images
+PRODUCT_PACKAGES += \
+    charger_res_images \
+    product_charger_res_images
 
 # GPS
 PRODUCT_PACKAGES += \
