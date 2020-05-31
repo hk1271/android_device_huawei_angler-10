@@ -244,6 +244,7 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc.so \
     libOmxG711Enc.so \
     libOmxQcelp13Enc.so \
+    android.hardware.media.omx \
     libgui_vendor
 
 PRODUCT_PACKAGES += \
