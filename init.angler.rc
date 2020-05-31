@@ -331,7 +331,7 @@ on property:persist.sys.ssr.enable_ramdumps=0
 
 service charger /charger
     class charger
-    group log
+    group system graphics
     seclabel u:r:charger:s0
     writepid /dev/cpuset/system-background/tasks
 
