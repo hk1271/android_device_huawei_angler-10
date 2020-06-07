@@ -46,8 +46,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     AOSPLinks
 
-PRODUCT_MANUFACTURER := Huawei
-
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=angler \
