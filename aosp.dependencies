@@ -8,10 +8,10 @@
    "target_path": "vendor/huawei"
  },
  {
-   "repository":"PixelBoot/packages_apps_GoogleCamera_angler",
+   "repository":"hk1271/packages_apps_GoogleCamera_angler",
    "target_path":"packages/apps/GoogleCamera",
-   "branch":"ten",
-   "remote":"gitlab"
+   "branch":"master",
+   "remote":"github"
  },
  {
     "repository": "android_hardware_sony_timekeep",
