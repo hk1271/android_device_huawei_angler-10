@@ -27,7 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit some common PixelExperience stuff
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, $(TOPDIR)vendor/bliss/config/common.mk)
+$(call inherit-product, $(TOPDIR)vendor/superior/config/common.mk)
 
 PRODUCT_NAME := superior_angler
 PRODUCT_DEVICE := angler
