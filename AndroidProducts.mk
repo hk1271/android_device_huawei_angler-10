@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/bliss_angler.mk
+    $(LOCAL_DIR)/superior_angler.mk

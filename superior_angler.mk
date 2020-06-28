@@ -27,9 +27,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 # Inherit some common PixelExperience stuff
 TARGET_BOOT_ANIMATION_RES := 1440
 TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, $(TOPDIR)vendor/bliss/config/common_full_phone.mk)
+$(call inherit-product, $(TOPDIR)vendor/bliss/config/common.mk)
 
-PRODUCT_NAME := bliss_angler
+PRODUCT_NAME := superior_angler
 PRODUCT_DEVICE := angler
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 6P
@@ -51,13 +51,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=angler \
     PRIVATE_BUILD_DESC="angler-user 8.1.0 OPM3.171019.014 4503998 release-keys"
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.fingerprint=google/angler/angler:8.1.0/OPM3.171019.014/4503998:user/release-keys
+BUILD_FINGERPRINT := google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys
 
-BUILD_FINGERPRINT := google/angler/angler:8.1.0/OPM3.171019.014/4503998:user/release-keys
-
-BLISS_BUILDTYPE=OFFICIAL
-
-# Device Maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.bliss.maintainer=Hardik_Kumar
